@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StartActivityForResultDemo</string>
+    <string name="btnButton1">跳转到另一个APP</string>
+    <string name="showTextView">显示回传结果：</string>
+
+</resources>

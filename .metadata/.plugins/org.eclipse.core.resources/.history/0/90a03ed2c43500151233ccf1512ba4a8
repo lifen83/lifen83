@@ -1,0 +1,24 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+ 
+    <CheckedTextView
+        android:id="@+id/checkedTextView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       
+        android:checked="true"
+        android:text="CheckedTextView1"
+        android:textSize="20sp" />
+ 
+    <CheckedTextView
+        android:id="@+id/checkedTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkMark="@android:drawable/arrow_up_float"
+        android:text="CheckedTextView2"
+        android:textSize="20sp" />
+ 
+</LinearLayout>

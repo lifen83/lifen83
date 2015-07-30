@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <Button
+        android:id="@+id/btnButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnButton1"
+         />
+   
+    <TextView 
+        android:id="@+id/showTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/showTextView"
+		android:gravity="center_horizontal"
+        />
+    
+    
+</LinearLayout>
